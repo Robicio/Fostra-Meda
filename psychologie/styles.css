@@ -1,0 +1,32 @@
+@import url("../styles.css");
+
+.psychology-hero {
+  background:
+    linear-gradient(
+      90deg,
+      rgb(52 21 78 / 0.94) 0%,
+      rgb(52 21 78 / 0.83) 45%,
+      rgb(52 21 78 / 0.52) 72%,
+      rgb(52 21 78 / 0.32) 100%
+    ),
+    url("../assets/fostra-067.webp") center 48% / cover no-repeat;
+}
+
+.hero-kicker {
+  margin-bottom: 18px;
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .psychology-hero {
+    background-position: 62% center;
+  }
+
+  .psychology-hero .hero-lead {
+    font-size: 17px;
+  }
+}
